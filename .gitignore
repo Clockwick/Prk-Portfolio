@@ -1,0 +1,12 @@
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+.next
+dist
+.vercel
+.env
