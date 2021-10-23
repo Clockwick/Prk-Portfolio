@@ -17,10 +17,8 @@ import Paragraph from '../components/paragraph';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import Layout from '../components/layouts/article';
 import { BioSection, BioYear } from '../components/bio';
-import {
-  IoLogoGithub,
-} from 'react-icons/io5'
-import { GridItem} from '../components/grid-item'
+import { IoLogoGithub } from 'react-icons/io5';
+import { GridItem } from '../components/grid-item';
 const Page = () => {
   return (
     <Layout>
@@ -108,9 +106,17 @@ const Page = () => {
             On the web
           </Heading>
           <List>
-            <ListItem><Link href="https://github.com/clockwick" target="_blank">
-              <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>@Clockwick</Button>
-              </Link></ListItem>
+            <ListItem>
+              <Link href="https://github.com/clockwick" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  @Clockwick
+                </Button>
+              </Link>
+            </ListItem>
           </List>
         </Section>
       </Container>
