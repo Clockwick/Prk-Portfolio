@@ -2,7 +2,9 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react';
 
 import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
-import thumbLMS from '../public/images/works/ThumbLMS.png';
+import thumbLMS from '../public/images/works/RuammitLogin.png';
+import thumbSpotify from '../public/images/works/ThumbSpotify.png';
+import thumbLineman from '../public/images/works/ThumbLINEMAN.png';
 import Layout from '../components/layouts/article';
 
 const Works = () => {
@@ -13,36 +15,27 @@ const Works = () => {
           Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section delay={0.3}>
-            <WorkGridItem
-              id="RuammitLMS"
-              title="RuammitLMS"
-              thumbnail={thumbLMS}
-            >
-              The E-Learning Management System Platform
-            </WorkGridItem>
-          </Section>
           <Section delay={0.4}>
             <WorkGridItem
-              id="ruammitlms-2"
-              title="RuammitLMS"
-              thumbnail={thumbLMS}
+              id="Spotify-clone"
+              title="Spotify"
+              thumbnail={thumbSpotify}
             >
-              The E-Learning Management System Platform
+              Cloning Spotify using Swift 5 / Spotify API
             </WorkGridItem>
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
-              id="ruammitlms-3"
-              title="RuammitLMS"
-              thumbnail={thumbLMS}
+              id="Lineman-clone"
+              title="Lineman"
+              thumbnail={thumbLineman}
             >
-              The E-Learning Management System Platform
+              Cloning Lineman using Swift 5
             </WorkGridItem>
           </Section>
           <Section delay={0.6}>
             <WorkGridItem
-              id="ruammitlms-4"
+              id="RuammitLMS"
               title="RuammitLMS"
               thumbnail={thumbLMS}
             >
