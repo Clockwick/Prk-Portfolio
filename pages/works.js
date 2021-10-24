@@ -3,8 +3,8 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react';
 import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
 import thumbLMS from '../public/images/works/RuammitLogin.png';
-import thumbSpotify from '../public/images/works/thumbSpotify.png';
-import thumbLineman from '../public/images/works/thumbLINEMAN.png';
+import thumbSpotify from '../public/images/works/ThumbSpotify.png';
+import thumbLineman from '../public/images/works/ThumbLINEMAN.png';
 import Layout from '../components/layouts/article';
 
 const Works = () => {
