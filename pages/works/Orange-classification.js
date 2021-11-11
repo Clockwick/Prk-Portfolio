@@ -20,7 +20,7 @@ const Work = () => {
         <Title>
           Orange Classification <Badge>2021</Badge>
         </Title>
-        <P>Classification the confused orange fruits using Swift 5 / Deep learning API</P>
+        <P>Classify whether the photo is Orange / Clementine / Grapefruit using Swift 5 / Deep learning API</P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Platform</Meta>

@@ -49,7 +49,7 @@ const Works = () => {
               title="Orange Classification"
               thumbnail={thumbOrange}
             >
-              Classification the confused orange fruits <br/>by Deep learning
+              Classification of the confused orange fruits <br/>by Deep learning
             </WorkGridItem>
           </Section>
         </SimpleGrid>
