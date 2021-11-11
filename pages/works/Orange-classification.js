@@ -41,23 +41,23 @@ const Work = () => {
           <Center>App preview</Center>
         </Heading>
         <SimpleGrid columns={1} gap={2}>
-          <WorkImage src="/images/contents/Orange/Home.png" />
+          <WorkImage src="/images/contents/Orange/Home.PNG" />
         </SimpleGrid>
         <Divider />
         <Heading as="h4" fontSize={16} my={6}>
           <Center>Take a photo or Choose a photo from gallery</Center>
         </Heading>
         <SimpleGrid columns={2} gap={4}>
-          <WorkImage src="/images/contents/Orange/TakeGrape.png" />
-          <WorkImage src="/images/contents/Orange/Choose.png" />
+          <WorkImage src="/images/contents/Orange/TakeGrape.PNG" />
+          <WorkImage src="/images/contents/Orange/Choose.PNG" />
         </SimpleGrid>
         <Divider />
         <Heading as="h4" fontSize={16} my={6}>
           <Center>Classify and Determine an accuracy of a photo</Center>
         </Heading>
         <SimpleGrid columns={2} gap={4}>
-          <WorkImage src="/images/contents/Orange/load.png" />
-          <WorkImage src="/images/contents/Orange/GrapeAcc.png" />
+          <WorkImage src="/images/contents/Orange/load.PNG" />
+          <WorkImage src="/images/contents/Orange/GrapeAcc.PNG" />
         </SimpleGrid>
         <Divider />
       </Container>
