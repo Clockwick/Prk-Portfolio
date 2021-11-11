@@ -5,6 +5,7 @@ import { WorkGridItem } from '../components/grid-item';
 import thumbLMS from '../public/images/works/RuammitLogin.png';
 import thumbSpotify from '../public/images/works/ThumbSpotify.png';
 import thumbLineman from '../public/images/works/ThumbLINEMAN.png';
+import thumbOrange from '../public/images/works/ThumbOrange.png';
 import Layout from '../components/layouts/article';
 
 const Works = () => {
@@ -40,6 +41,15 @@ const Works = () => {
               thumbnail={thumbLMS}
             >
               The E-Learning Management System Platform
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.8}>
+            <WorkGridItem
+              id="Orange-classification"
+              title="Orange Classification"
+              thumbnail={thumbOrange}
+            >
+              Classification the confused orange fruits <br/>by Deep learning
             </WorkGridItem>
           </Section>
         </SimpleGrid>
