@@ -15,12 +15,12 @@ import Layout from '../../components/layouts/article';
 
 const Work = () => {
   return (
-    <Layout title="Lineman">
+    <Layout title="LINE MAN">
       <Container>
         <Title>
-          Lineman <Badge>2021</Badge>
+          LINE MAN <Badge>2021</Badge>
         </Title>
-        <P>Cloning Lineman using Swift 5</P>
+        <P>Cloning LINE MAN using Swift 5</P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Platform</Meta>

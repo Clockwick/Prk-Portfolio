@@ -30,8 +30,8 @@ const Page = () => {
           p={3}
           textAlign="center"
         >
-          Hello, I&apos;m a 3rd-year college student who&apos;s passionate to
-          develop Web applications and Mobile applications (iOS)!
+          Hello, I&apos;m a 4th-year college student who&apos;s passionate to
+          develop Web applications and Mobile applications !
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
@@ -91,6 +91,22 @@ const Page = () => {
             Graduated from Suankularb Wittayalai Thonburi School.
           </BioSection>
           <BioSection>
+            <BioYear>May 2022 - Dec 2022</BioYear>
+            Intern iOS Developer at{' '}
+            <Link href="https://lineman.line.me/">
+              <b>LINE MAN Wongnai</b>
+            </Link>
+            .
+          </BioSection>
+          <BioSection>
+            <BioYear>Sep 2021 - Now</BioYear>
+            Part time Frontend Developer at{' '}
+            <Link href="https://xn--b3cai3g4cd.com/">
+              <b>ชาญชรา.com</b>
+            </Link>
+            .
+          </BioSection>
+          <BioSection>
             <BioYear>Now</BioYear>
             Studying a Bachelor of Computer Engineering, KMITL.
           </BioSection>
@@ -99,7 +115,7 @@ const Page = () => {
           <Heading as="h2" variant="section-title">
             I ♥
           </Heading>
-          <Paragraph>Travel, Café, Music, Guitar, Piano</Paragraph>
+          <Paragraph>Travel, Café, Music, Guitar, Piano, Workout</Paragraph>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
