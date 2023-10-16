@@ -18,7 +18,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons';
 import Layout from '../components/layouts/article';
 import { BioSection, BioYear } from '../components/bio';
 import { IoLogoGithub } from 'react-icons/io5';
-import { GridItem } from '../components/grid-item';
+
 const Page = () => {
   return (
     <Layout>
@@ -32,13 +32,15 @@ const Page = () => {
         >
           Hello, I&apos;m a 4th-year college student who&apos;s passionate to
           develop Web applications and Mobile applications !
+
+          Hi! I&apos;m a passionate software engineer with a knack for crafting elegant solutions to complex problems. With a background in Frontend and Backend development, I thrive on turning ideas into reality through clean, efficient code. I&apos;m driven by a love for creating user-friendly applications that make a positive impact. Let&apos;s collaborate and bring your next project to life!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Paratthakorn Sribunyong
             </Heading>
-            <p>Full-stack / iOS Developer</p>
+            <p>Full-stack / Frontend Developer</p>
           </Box>
           <Box
             flexShrink={0}
@@ -99,7 +101,7 @@ const Page = () => {
             .
           </BioSection>
           <BioSection>
-            <BioYear>Sep 2021 - Now</BioYear>
+            <BioYear>Oct 2021 - Feb 2023</BioYear>
             Part time Frontend Developer at{' '}
             <Link href="https://xn--b3cai3g4cd.com/">
               <b>ชาญชรา.com</b>
@@ -107,8 +109,12 @@ const Page = () => {
             .
           </BioSection>
           <BioSection>
-            <BioYear>Now</BioYear>
-            Studying a Bachelor of Computer Engineering, KMITL.
+            <BioYear>July 2019 - Apr 2023</BioYear>
+            Graduated from King Mongkut&apos;s Institute of Technology Ladkrabang. (Computer Engineering with 2nd Class Honors)
+          </BioSection>
+          <BioSection>
+            <BioYear>Apr 2023 - Now</BioYear>
+            Outsource Frontend Developer at SCB Tech X
           </BioSection>
         </Section>
         <Section delay={0.3}>
