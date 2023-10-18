@@ -30,7 +30,7 @@ const Page = () => {
           p={3}
           textAlign="center"
         >
-          Hi! I&apos;m a passionate software engineer with a knack for crafting elegant solutions to complex problems. With a background in Frontend and Backend development, I thrive on turning ideas into reality through clean, efficient code. I&apos;m driven by a love for creating user-friendly applications that make a positive impact. Let&apos;s collaborate and bring your next project to life!
+          Hi! I&apos;m a passionate software engineer with a knack for crafting solutions to complex problems. Let&apos;s collaborate and bring your next project to life!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
