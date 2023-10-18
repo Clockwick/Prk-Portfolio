@@ -107,9 +107,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>Apr 2023</BioYear>
-            <Box>
             Graduated from KMITL (Computer Engineering with 2nd Class Honors)
-            </Box>
           </BioSection>
           <BioSection>
             <BioYear>Apr 2023 - Now</BioYear>
