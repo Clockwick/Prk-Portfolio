@@ -30,9 +30,6 @@ const Page = () => {
           p={3}
           textAlign="center"
         >
-          Hello, I&apos;m a 4th-year college student who&apos;s passionate to
-          develop Web applications and Mobile applications !
-
           Hi! I&apos;m a passionate software engineer with a knack for crafting elegant solutions to complex problems. With a background in Frontend and Backend development, I thrive on turning ideas into reality through clean, efficient code. I&apos;m driven by a love for creating user-friendly applications that make a positive impact. Let&apos;s collaborate and bring your next project to life!
         </Box>
         <Box display={{ md: 'flex' }}>
@@ -110,7 +107,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>July 2019 - Apr 2023</BioYear>
-            Graduated from King Mongkut&apos;s Institute of Technology Ladkrabang. (Computer Engineering with 2nd Class Honors)
+            Graduated from KMITL (Computer Engineering with 2nd Class Honors)
           </BioSection>
           <BioSection>
             <BioYear>Apr 2023 - Now</BioYear>
@@ -121,7 +118,7 @@ const Page = () => {
           <Heading as="h2" variant="section-title">
             I ♥
           </Heading>
-          <Paragraph>Travel, Café, Music, Guitar, Piano, Workout</Paragraph>
+          <Paragraph>Travel, Café, Music, Guitar, Book, Workout</Paragraph>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
