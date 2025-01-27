@@ -82,16 +82,8 @@ const Page = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>2000</BioYear>
-            Born in Bangkok, Thailand.
-          </BioSection>
-          <BioSection>
-            <BioYear>2019</BioYear>
-            Graduated from Suankularb Wittayalai Thonburi School.
-          </BioSection>
-          <BioSection>
             <BioYear>May 2022 - Dec 2022</BioYear>
-            Intern iOS Developer at{' '}
+            iOS Developer (Internship),{' '} 
             <Link href="https://lineman.line.me/">
               <b>LINE MAN Wongnai</b>
             </Link>
@@ -99,19 +91,33 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>Oct 2021 - Feb 2023</BioYear>
-            Part time Frontend Developer at{' '}
+            Frontend Developer (Part Time),{' '}
             <Link href="https://xn--b3cai3g4cd.com/">
               <b>ชาญชรา.com</b>
             </Link>
             .
           </BioSection>
           <BioSection>
-            <BioYear>Apr 2023</BioYear>
-            Graduated from KMITL (Computer Engineering with 2nd Class Honors)
+            <BioYear>Jan 2019 - Apr 2023</BioYear>
+            Bachelor of Computer Engineering, {' '} 
+            <Link href="https://www.kmitl.ac.th/"> 
+              <b>KMITL</b>
+            </Link>
+            {' '}(GPA: 3.45)
           </BioSection>
           <BioSection>
-            <BioYear>Apr 2023 - Now</BioYear>
-            Outsource Frontend Developer at SCB Tech X
+            <BioYear>Apr 2023 - Mar 2024</BioYear>
+            Frontend Developer (Contract), {' '}
+            <Link href="https://scbtechx.io/th/home/"> 
+              <b>SCB Tech X</b>
+            </Link>
+          </BioSection>
+          <BioSection>
+            <BioYear>Apr 2024 - Now</BioYear>
+            iOS Developer, {' '}
+            <Link href="https://www.arise.tech/"> 
+              <b>Arise by Infinitas</b>
+            </Link>.
           </BioSection>
         </Section>
         <Section delay={0.3}>
